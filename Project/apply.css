@@ -1,0 +1,126 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #beb8b9;
+    color: #251919;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  h1 {
+    width: 50;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+
+    font-size: 36px;
+    color: #053f72;
+    background-color: rgb(228, 228, 127);
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom:50px;
+  }
+  
+  label {
+    text-align:center;
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="file"],
+  input[type="submit"] {
+    width: 20%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left:600px;
+
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #1e88e5;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Confirmation Message Section */
+  #confirmation-message {
+    position:absolute;
+    top:1450px;
+    left:550px;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    font-weight: bold;
+  }
+  
+  footer {
+    position: absolute;
+   /* Adjust the distance from the top */
+  top: 1600px;
+   left:0px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:px;
+    
+    width: 100%;
+  }
+
+  h2 {
+    width: 20;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding: 10px;
+
+    font-size: 24px;
+    color: #1e88e5;
+    margin-top: 30px;
+    margin-bottom:50px;
+    background-color:rgb(252, 201, 142);
+    text-align:center;
+  }
+
+  p {
+    font-size: 20px;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  
+  /* Paragraph Section */
+  .paragraph-section {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  /* Images Section */
+  .images-section {
+    margin-top: 40px;
+    margin-bottom:60px;
+  }
+  
+  .image-grid {
+    margin-left: 10px; 
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 30px;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>Apply for Job Opportunities</title>
+  <link rel="stylesheet" href="apply.css">
+</head>
+<body>
+  <h1>Apply for Job Opportunities</h1>
+
+ <!-- Paragraph Section -->
+ <section class="paragraph-section">
+    <h2>Discover Exciting Opportunities</h2>
+    <p>Explore diverse job openings across various industries. Whether you're passionate about technology, creative arts, entrepreneurship, or more, we've got something for you. Join our team of forward-thinkers and innovators!</p>
+  </section>
+
+  <!-- Images Section -->
+  <section class="images-section">
+    <h2>Our Workplace</h2>
+    <div class="image-grid">
+      <img src="job.jpeg" alt="Workplace Image 1">
+      <img src="job2.jpeg" alt="Workplace Image 2">
+      <img src="job 3.jpeg" alt="Workplace Image 3">
+      <img src="job4.jpeg" alt="Workplace Image 4">
+
+      <!-- Add more images as needed -->
+    </div>
+  </section>
+
+  <h2>Apply Here</h2>
+
+  <!-- Job Application Form Section -->
+  <section class="job-application-form">
+    <form id="job-application-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="resume">Upload Resume:</label>
+      <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+      <input type="submit" value="Submit Application">
+    </form>
+  </section>
+
+  <!-- Confirmation Message Section -->
+  <div id="confirmation-message" style="display: none;">
+    <p>Your application has been submitted successfully!</p>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Anti-Drug Education Podcast. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <!--
+//     document.addEventListener('DOMContentLoaded', function() {
+//       const form = document.getElementById('job-application-form');
+//       const confirmationMessage = document.getElementById('confirmation-message');
+
+//       form.addEventListener('submit', function(event) {
+//         event.preventDefault(); // Prevent form submission
+
+//         // Simulated verification logic
+//         const name = document.getElementById('name').value;
+//         const email = document.getElementById('email').value;
+
+//         // Simulate checking if the candidate is qualified based on provided details
+//         if (verifyCandidate(name, email)) {
+//           // Perform form submission handling (can be replaced with backend processing)
+//           // For now, just display a confirmation message
+//           confirmationMessage.style.display = 'block';
+
+//           // Reset the form (optional)
+//           form.reset();
+//         } else {
+//           alert('Sorry, you are not qualified based on the provided details.');
+//         }
+//       });
+
+//       // Simulated function to verify the candidate
+//       function verifyCandidate(name, email) {
+//         // Replace this with actual verification logic using APIs or databases
+//         // For now, let's simulate a successful verification if the email contains "example.com"
+//         return email.includes('example.com');
+//       }
+//     });
+//   </script> -->
+</body>
+</html>

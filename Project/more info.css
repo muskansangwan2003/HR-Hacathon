@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0a1ca;
+    color: #333;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #014a89;
+    background-color: #b5e9d2;
+    text-align: center;
+    width: 50;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 10px;
+    margin-bottom:20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 30px;
+  }
+
+  .job-opportunities {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #131111;
+    margin-bottom:30px;
+  }
+  
+  /* How it Works Section */
+  .how-it-works {
+    margin-top: 40px;
+  }
+  
+  .how-it-works .works-content {
+    padding: 15px;
+    width:auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Our Commitment Section */
+  .our-commitment {
+    margin-top: 40px;
+  }
+  
+  .our-commitment .commitment-content {
+    padding: 15px;
+    width:auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Hover effect for sections */
+  .how-it-works .works-content,
+  .our-commitment .commitment-content {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .how-it-works .works-content:hover,
+  .our-commitment .commitment-content:hover {
+    transform: scale(1.05);
+  }
+  
+  footer {
+    position: absolute;
+   /* Adjust the distance from the top */
+  top: 650px;
+   left:0px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:px;
+    
+    width: 100%;
+  }
+  

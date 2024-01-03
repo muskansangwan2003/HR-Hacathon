@@ -1,0 +1,110 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #92c6a7;
+    color: #333;
+    margin: 20px;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 32px;
+    color: #0269c4;
+    text-align: center;
+  }
+  
+.paragraph{
+    text-align: center;
+}
+  
+/* Paragraph Area styles */
+.paragraph2 {
+    width: 90%;
+    position: absolute;
+    top:1350px;
+    left:80px;
+    margin: 0 auto;
+    text-align: justify;
+
+    line-height: 1.6;
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #dfe1d8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Podcasts Section styles */
+  .podcasts {
+    margin-top: 30px;
+  }
+  
+  .podcasts h2 {
+    margin-top: 25px;
+    font-size: 24px;
+    color: #040301;
+    background-color: rgb(165, 154, 199);
+    text-align: center;
+  }
+  
+  .podcast-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .podcast {
+    width: 300px;
+    padding: 10px;
+    background-color: #e6ee9c;
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .podcast-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  /* Videos Section styles */
+  .videos {
+    margin-top: 50px;
+  }
+  
+  .videos h2 {
+    font-size: 24px;
+    background-color: rgb(165, 154, 199);
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .video-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .video {
+    margin: 10px;
+  }
+  footer {
+    position: absolute;
+   /* Adjust the distance from the top */
+  top: 1600px;
+   left:0px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:px;
+    
+    width: 100%;
+  }  

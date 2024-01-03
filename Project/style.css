@@ -1,0 +1,436 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    /* background-image: url('OIG.jpeg'); /* Replace 'path_to_your_image.jpg' with your image file path */
+    background-size: 1366px 768px;
+    background-position: center;
+    color: #333;
+    background-color: #d0d2b9;
+  }
+  .headline {
+    margin-top: 100px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #0c0c0d;
+  }
+  .subtext {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #388e3c;
+  }
+  /* Chatbox styles */
+#chatbox-container {
+    position: absolute;
+    top: 850px;
+    right: 30px;
+    z-index: 1100;
+  }
+  
+  #chatbox {
+    border: 1px solid #191902b6;
+    border-radius: 5px;
+    width: 300px;
+    max-height: 400px;
+    overflow-y: auto;
+    background-color: #9db4c3;
+  }
+  
+  #chatbox-header {
+    background-color: #d6b580;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #chatbox-messages {
+    padding: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  #user-input {
+    width: 70%;
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  button {
+    padding: 5px 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  /* Headline styles */
+.main-headline {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 48px;
+    color: #032441; /* Beautiful color */
+    margin-top: 50px;
+    text-transform: uppercase; /* Uppercase text */
+    letter-spacing: 2px; /* Adjust letter spacing */
+    /* Additional styles or effects */
+  }
+  /* Styles for counseling services section */
+.counseling-services {
+    text-align: center;
+    margin: 10px 20px;
+    padding: 10px;
+    width: 15%;
+    height: 10%;
+    background-color: #9fcbb2;
+    border-radius: 10px;
+    float: left;
+  }
+  
+  .counseling-services h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .counseling-services p {
+    margin-bottom: 5px;
+  }
+  
+  /* Form styles (You might need to style the form inputs and button further) */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  label, input, textarea {
+    margin: 10px 0;
+    width: 60%;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="submit"] {
+    background-color: #8e9258;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Styles for challenge section */
+.challenge-section {
+    position: absolute;
+  top: 480px; /* Adjust the distance from the top */
+  left: 300px; 
+    text-align: center;
+    margin-right: 10%;
+    margin-bottom: 1%;
+    padding: 20px;
+    width: 52%;
+    background-color: #da7171;
+    border-radius: 5px;
+    clear: both;
+  }
+  
+  .challenge-section h2 {
+    font-size: 32px;
+    color: #333;
+  }
+  
+  .challenge-section p {
+    margin-bottom: 15px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .register-button,
+  .details-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #1e88e5;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-button:hover,
+  .details-button:hover {
+    background-color: #1565c0;
+  }
+  
+  /* Rest of your styles */
+  footer {
+    position: absolute;
+   /* Adjust the distance from the top */
+  top: 1250px;
+   left:0px;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding:px;
+    
+    width: 100%;
+  }
+  
+  /* Styles for podcasts area */
+.podcasts-area {
+    position: absolute;
+  top: 230px; /* Adjust the distance from the top */
+  right: 30px; /* Adjust the distance from the right */
+    width: 15%; /* Adjust width as needed */
+    background-color: #ffe082; /* Light yellow background */
+    padding: 20px; /* Add padding for spacing */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: 20px; /* Add space below */
+  }
+  
+  .podcast-item {
+    margin-bottom: 15px;
+  }
+  
+  .podcast-item img {
+    width: 50%;
+    height: 50%;
+    border-radius: 5px; /* Rounded corners for images */
+  }
+  
+  .podcast-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .podcast-item p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  /* Styles for paragraph section */
+  .paragraph-section {
+    position: absolute;
+  top: 200px; /* Adjust the distance from the top */
+  left: 300px; /* Adjust the distance from the left */
+    width: 55%; /* Adjust width as needed */
+    padding: 20px; /* Add padding for spacing */
+    background-color: #b2dfdb; /* Light green background */
+    border-radius: 5px; /* Add rounded corners */
+    margin-top: 20px; 
+    margin-bottom : 10px/* Add space below */
+  }
+  
+  .paragraph-section p {
+    font-size: 16px;
+    color: #464343;
+  }
+  
+  /* Rest of your styles */
+  
+
+  /* Styles for the image at specified location */
+.specified-location {
+    position: absolute;
+    top: 450px; /* Adjust the distance from the top */
+    left: 600px; /* Adjust the distance from the left */
+  }
+  
+  .custom-image {
+    width: 200px; /* Adjust image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 5px; /* Optional: Rounded corners */
+    /* Any other image-specific styles */
+  }
+  
+  /* Rest of your styles */
+  
+  /* Styles for contact and location section */
+  
+  .contact-details {
+    position : absolute;
+    top : 620px;
+    right : 30px;
+    text-align: center;
+    flex: 1;
+    padding: 12px;
+    background-color: #9b9fbf; /* Light purple background */
+    border-radius: 5px;
+  }
+  
+  .contact-details h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .contact-details p {
+    font-size: 16px;
+    color: #464343;
+    margin-bottom: 10px;
+  }
+  
+  /* Rest of your styles */
+  
+ /* Styles for authors section */
+.authors {
+    position: absolute ;
+    top: 700px;
+    left: 280px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding:10px;
+    margin-bottom:40px; /* Adjust margin as needed */
+  }
+  
+  .author {
+    width: 40%;
+    padding: 10px;
+    background-color: #e6ee9c; /* Light yellow background */
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .author-image {
+    width: 30%; /* Adjust image size */
+    height: auto;
+    border-radius: 50%; /* Make images round */
+    margin-bottom: 15px;
+  }
+  
+  .author-info h2 {
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .author-info p {
+    font-size: 16px;
+    color: #464343;
+  }
+  
+  /* Rest of your styles */
+  
+  /* Styles for button area */
+.button-area {
+    position: absolute;
+    top: 520px;
+    right: 120px;
+    text-align: center;
+    margin-top: 40px; /* Adjust margin as needed */
+  }
+
+  /* Styles for button area */
+.button2-area {
+    position: absolute;
+    top: 1060px;
+    left: 830px;
+    text-align: center;
+    margin-top: 40px; /* Adjust margin as needed */
+  }
+
+  .button3-area {
+    position: absolute;
+    top: 1110px;
+    left: 830px;
+    text-align: center;
+    margin-top: 40px; /* Adjust margin as needed */
+  }
+  
+  .custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8ba521; /* Button background color */
+    color: #ffffff; /* Text color */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #2a3b02; /* Hover background color */
+  }
+  
+  /* Rest of your styles */
+  
+  /* Styles for job opportunities section */
+.job-opportunities {
+    position: absolute ;
+    top: 1030px;
+    left: 30px;
+    padding: 20px;
+    background-color: #ffcdd2; /* Light red background */
+    border-radius: 5px;
+    margin-top: 30px; /* Adjust margin as needed */
+  }
+  
+  .job-opportunities h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .job-opportunities p {
+    font-size: 16px;
+    color: #464343;
+    margin-bottom: 10px;
+  }
+  
+  /* Rest of your styles */
+  
+  /* Styles for follow us section */
+.follow-us {
+    position: absolute;
+    top:1010px;
+    right:30px;
+    padding: 20px;
+    background-color: #b2ebf2; /* Light blue background */
+    border-radius: 5px;
+    margin-top: 30px; /* Adjust margin as needed */
+  }
+  
+  .follow-us h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .follow-us p {
+    font-size: 16px;
+    color: #464343;
+    margin-bottom: 10px;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .social-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #1e88e5; /* Social link background color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .social-link:hover {
+    background-color: #1565c0; /* Hover background color */
+  }
+  
+  /* Rest of your styles */
+  
+  /* Confirmation Message Section */
+#confirmation-message {
+    position:absolute;
+    left:30px;
+    top:980px;
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+    font-weight: bold;}
